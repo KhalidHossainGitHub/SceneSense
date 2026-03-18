@@ -26,11 +26,11 @@ As you rate movies with Like / Not for me, SceneSense adapts to your taste over 
   <tr>
     <td align="center">
       <img src="public/vibe-wizard.png" width="400"><br>
-      <b>Figure 1: Personalize Wizard</b>
+      <b>Figure 2: Vibe Modal</b>
     </td>
     <td align="center">
       <img src="public/preferences-wizard.png" width="400"><br>
-      <b>Figure 2: Another View</b>
+      <b>Figure 3: Preferences Modal</b>
     </td>
   </tr>
 </table>
@@ -48,7 +48,7 @@ As you rate movies with Like / Not for me, SceneSense adapts to your taste over 
 <p align="center">
   <img width="932" alt="Results Rows" src="public/results-rows.png">
   <br>
-  <b>Figure 3: Netflix-style Results Rows</b>
+  <b>Figure 4: Netflix-style Results Rows</b>
 </p>
 
 ### 3. Feedback Training (Like / Not for me)
@@ -60,7 +60,7 @@ As you rate movies with Like / Not for me, SceneSense adapts to your taste over 
 <p align="center">
   <img width="400" alt="Movie Card Feedback" src="public/movie-card-feedback.png">
   <br>
-  <b>Figure 4: Movie Card Feedback</b>
+  <b>Figure 5: Movie Card Feedback</b>
 </p>
 
 ### 4. Mobile Responsive UI
@@ -71,7 +71,7 @@ As you rate movies with Like / Not for me, SceneSense adapts to your taste over 
 <p align="center">
   <img width="420" alt="Mobile Responsive" src="public/mobile-responsive.png">
   <br>
-  <b>Figure 5: Mobile Responsive UI</b>
+  <b>Figure 6: Mobile Responsive UI</b>
 </p>
 
 ---
