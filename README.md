@@ -2,9 +2,11 @@
 
 SceneSense is a movie recommendation app built to help you find something you’ll actually want to watch, faster. Instead of browsing endlessly, you pick your current vibe (mood, time of day, and who you’re watching with) plus a few optional preferences like genres, age group, and movie length — and SceneSense generates a set of picks in a clean, Netflix-style layout.
 
-As you rate movies with Like / Not for me, SceneSense adapts to your taste over time so the recommendations keep getting better.
+As you rate movies with Like / Not for me, SceneSense adapts to your taste over time, so the recommendations keep getting better.
 
 **Live Demo:** [scenesense.vercel.app](https://scenesense.vercel.app)
+
+**Note:** Backend is hosted on free-tier infrastructure and may be temporarily unavailable if usage limits are reached. 
 
 <p align="center">
   <img width="932" alt="SceneSense Preview" src="public/hero-preview.png">
