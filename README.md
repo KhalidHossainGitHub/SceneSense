@@ -1,11 +1,13 @@
 # SceneSense — ML Movie Recommender
 
-A movie recommender that pulls movies from **TMDB** and ranks them using a hybrid approach: **content-based ML** (TF‑IDF + cosine similarity over genres + descriptions) and **personalized ML** (an **SGDClassifier** that learns from your like/dislike feedback stored in SQLite). You can personalize results by selecting your **mood**, **time of day**, and **company**, along with optional preferences like **age group**, **preferred genres** (multi-select), and **movie length** (short/medium/long/any).
+SceneSense is a movie recommendation app built to help you find something you’ll actually want to watch, faster. Instead of browsing endlessly, you pick your current vibe (mood, time of day, and who you’re watching with) plus a few optional preferences like genres, age group, and movie length — and SceneSense generates a set of picks in a clean, Netflix-style layout.
 
-**Live Demo:** [scenesense-v2.vercel.app](https://scenesense-v2.vercel.app)
+As you rate movies with Like / Not for me, SceneSense adapts to your taste over time so the recommendations keep getting better.
+
+**Live Demo:** [scenesense.vercel.app](https://scenesense.vercel.app)
 
 <p align="center">
-  <img width="932" alt="SceneSense Preview" src="public/SceneSense-Preview.png">
+  <img width="932" alt="SceneSense Preview" src="public/hero-preview.png">
   <br>
   <b>Figure 1: SceneSense Preview</b>
 </p>
