@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cb-bg: #0a0a0a;
+  --color-cb-surface: #141414;
+  --color-cb-card: #1a1a1a;
+  --color-cb-border: #252525;
+  --color-cb-muted: #888;
+  --color-cb-dim: #555;
+  --color-cb-gold: #f5c518;
+  --color-cb-accent: #e50914;
+  --color-cb-accent-2: #ff1b2d;
+  --color-cb-accent-soft: rgba(229, 9, 20, 0.18);
+  --color-cb-accent-border: rgba(229, 9, 20, 0.55);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(900px 500px at 50% -10%, rgba(229, 9, 20, 0.18), transparent 60%),
+    radial-gradient(700px 380px at 10% 0%, rgba(229, 9, 20, 0.10), transparent 55%),
+    #0a0a0a;
+  color: #e5e5e5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b2b2b;
+  border-radius: 3px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up {
+  animation: fade-up 0.35s ease-out both;
+}
